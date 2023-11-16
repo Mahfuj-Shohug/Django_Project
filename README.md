@@ -38,7 +38,7 @@ Make sure you have the following installed on your machine:
 1. Apply database migrations:
 
    ```bash
-   python manage.py migrate
+   python manage.py migrate 
    ```
 
 2. Start the development server:
