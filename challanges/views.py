@@ -4,6 +4,10 @@ from django.http import HttpResponseNotFound
 
 
 # Create your views here.
+def monthNumber(request, month):
+    return HttpResponse(month * month)
+
+
 def monthlyChallanges(request, month):
     challangesText = None
     if month == "january":
